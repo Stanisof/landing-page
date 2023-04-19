@@ -14,7 +14,7 @@ body {
 .header {
     display:flex;
     justify-content: space-between;
-    padding: 10px 450px;
+    padding: 10px 15%;
 }
 
 .logo {
@@ -25,7 +25,8 @@ body {
 
 .hero {
     display: flex;
-    padding: 75px 450px;
+    justify-content: space-between;
+    padding: 75px 15%;
 }
 
 .hero-text {
@@ -87,7 +88,7 @@ a {
 
 .quote-container {
     align-self: center;
-    padding: 75px 450px;
+    padding: 75px 0;
 }
 
 .quote {
