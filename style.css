@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer,
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 450px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    padding: 75px 450px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.secondary {
+    padding: 15px 0;
+}
+button {
+    padding: 10px;
+    width: 125px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secondary,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.intro {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: center;
+    padding-top: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 75px 0;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.item img {
+    border-radius: 8px;
+}
+
+.quote-container {
+    align-self: center;
+    padding: 75px 450px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column; 
+}
+
+.line {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    color: #1F2937;
+    text-align: end;
+}
+
+.sign {
+    display: flex;
+    margin: 50px 0;
+    width: 800px;
+    height: 125px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.sign-container {
+    color: white;
+    font-size: 18px;
+}
+
+.action {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sign button {
+    border: 3px solid white;
+}
+
+.footer {
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 15px;
+}
+
+
+li {
+    list-style: none;
+    display: flex;
+    
+}
